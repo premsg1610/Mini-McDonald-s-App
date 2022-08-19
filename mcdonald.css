@@ -1,0 +1,86 @@
+/* #container{ */
+    /* border:1px solid red; */
+/* } */
+body{
+    /* background-image: url('https://miro.medium.com/max/1400/1*rSNOFEcGq43bzUJYpowEvQ.png'); */
+    background-color: #d50605;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+    font-family: sans-serif;
+}
+#welcome{
+    /* border:1px solid red; */
+    display:flex;
+    /* justify-content: space-between; */
+    font-family:sans-serif
+}
+#topBox{
+    /* border:1px solid blue; */
+    display:flex;
+    justify-content: space-around;
+}
+#bottomBox{
+    /* border:1px solid black; */
+    width:80vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    margin-top:50px;
+    gap:0px;
+    justify-content: center;
+    justify-items: center;
+}
+#list{
+    margin:auto;
+    font-size: large;
+}
+#logo{
+    border:none;
+    width:8vw;
+    height:5vw;
+    /* border:1px solid; */
+    margin:0px;
+    box-shadow: none;
+}
+h1{
+    text-align: center;
+    /* display:inline; */
+    /* color:white; */
+    /* border:1px solid; */
+    margin-left:28%
+
+}
+h4{
+    color:rgb(255, 208, 0)
+}
+img{
+    width:250px;
+    height:200px;
+    /* border:1px solid; */
+    border-radius: 10px ;
+    margin-top:30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#orderId{
+    /* border:1px solid coral; */
+    margin-left:-10%;
+    margin-right:1%;
+    
+}
+
+button{
+    background-color:rgb(255, 208, 0) ;
+    border-radius:5px;
+    padding:5px;
+}
+button:hover{
+    cursor:pointer
+}
+label:hover{
+    color:yellow;
+}
+input:hover{
+    cursor:pointer
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's</title>
+    <link rel="stylesheet" href="mcdonald.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="welcome">
+            <img id="logo" src="https://logos-world.net/wp-content/uploads/2020/03/McDonalds-Logo.png"> 
+            <h1>Welcome To McDonald's</h1>
+        </div>
+        <marquee behavior="" direction="rel"><h4>Order above ₹499 to get 15% discount!*</h4></marquee>
+       
+        <div id="topBox">
+            <div id="list">
+                <input onclick="burgerFun()" type="checkbox" id="burger" value="Burger">
+                <label id="burgerLabel">Burger</label>
+        
+                <input onclick="wrapFun()" type="checkbox" id="wrap" value="Wrap">
+                <label id="wrapLabel">Wrap</label>
+        
+                <input onclick="cokeFun()" type="checkbox" id="coke" value="Beverages">
+                <label id="cokeLabel">Beverages</label>
+        
+                <input onclick="mcPuffFun()" type="checkbox" id="mcPuff" >
+                <label id="mcPuffLabel">mcPuff</label>
+        
+                <input onclick="friesFun()" type="checkbox" id="fries">
+                <label id="friesLabel">French Fries</label>
+        
+                <input onclick="iceCreamFun()" type="checkbox" id="iceCream">
+                <label id="iceCreamLabel">Icecream</label>
+        
+                <button onclick="orderFood()">Order Food</button>
+            </div>
+            <div id="orderId">Your Order id is:------</div>
+        </div>
+        <div id="bottomBox"></div>
+        
+    </div>
+    <!-- <input type="text" id="food"> -->
+    
+
+    
+</body>
+</html>
+
+<script src="mcdonald.js"></script>
